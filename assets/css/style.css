@@ -1,13 +1,33 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+}
+
 
 /* Header */
 header {
-    background-color: blanchedalmond;
+    background-color: rgb(255, 240, 212);
 }
-/* Main Content*/
+
+/* Main content */
 main {
-    background-color: aquamarine;
+    background-color: rgb(235, 254, 255);
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
+
 /* Footer */
 footer {
-    background-color: rgb(148, 205, 255);
+    background-color: rgb(255, 251, 191);
 }
