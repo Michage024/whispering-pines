@@ -42,44 +42,14 @@ h1 {
     letter-spacing: 2px;
     color: #252525;
 }
-/* Testimonials Banner */
-
-#Aplace {
-    font-size: large;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #ffffff;
-    background-color: rgba(61, 12, 59, 0.747);
-    letter-spacing: 3px;
-}
-    /*Opening text*/
-
-
-#openingtext {
-
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-padding-top: 4%;
-padding-left: 5%;
-padding-right: 5%;
-    width: 100%;
-}
-
-/* Testimonial comments */
-#James {
-    height: 10%;
-    width: 10%;
-}
-
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-    text-align: center;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 }
 
@@ -141,14 +111,8 @@ main {
     color: #3a3a3a;
 }
 
-#social-networks-bond {
-    background-color: rgba(175, 80, 238, 0.534);
-    padding-top: -5%;
-}
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;
@@ -162,7 +126,7 @@ main {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -176,16 +140,16 @@ main {
         margin: 0 0.5rem;
     }
 
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
-    }
+/* Main content */
+main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 79px;
+}
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
+    #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
 }
