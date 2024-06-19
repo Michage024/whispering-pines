@@ -105,11 +105,16 @@ main {
     justify-content: space-evenly;
     background-color:rgba(117, 21, 85, 0.370);
    height: 70px;
-   
- 
+}
 
+/* our contact details */
+h3 {
+
+    text-align: center;
+    background-color: aliceblue;
 }
 /* Footer */
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
