@@ -47,8 +47,10 @@ h1 {
 #Aplace {
     font-size: large;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgba(255, 82, 189, 0.616);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
+    background-color: rgba(61, 12, 59, 0.747);
+    letter-spacing: 3px;
 }
     /*Opening text*/
 
@@ -137,6 +139,11 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+#social-networks-bond {
+    background-color: rgba(175, 80, 238, 0.534);
+    padding-top: -5%;
 }
 
 /* Media query: tablets and larger (768px and up) */
