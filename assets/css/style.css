@@ -85,7 +85,6 @@ nav {
 /* Main content */
 main {
     /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
     margin-top: 47px;
 }
 
@@ -96,6 +95,20 @@ main {
     background: url(../Images/Home\ Main\ Image.jpg) no-repeat center center/cover;
 }
 
+#not-just-to-live {
+   font-size: large;
+    font-style: italic;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    color: #000000;
+    justify-content: space-evenly;
+    background-color:rgba(117, 21, 85, 0.370);
+   height: 70px;
+   
+ 
+
+}
 /* Footer */
 #social-networks {
     text-align: center;
