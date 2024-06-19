@@ -101,17 +101,31 @@ main {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    color: #000000;
+    color: #ffffff;
     justify-content: space-evenly;
-    background-color:rgba(117, 21, 85, 0.370);
+    background-color:rgba(61, 11, 45, 0.966);
    height: 70px;
 }
 
-/* our contact details */
+/*our mission*/
 h3 {
 
     text-align: center;
-    background-color: aliceblue;
+    color: #ffffff;
+    background-color: rgb(77, 59, 21);
+}
+
+#mission-statement
+
+{
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    padding: 20px 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 2px;
 }
 /* Footer */
 
