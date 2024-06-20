@@ -235,3 +235,48 @@ iframe {
 #photos {
     line-height: 0;
 }
+
+/* JOIN US PAGE */
+.joinus-hero-photo {
+    padding-top: 10%;
+    padding-left: 15%;
+    height: fit-content;
+}
+
+/* Details for contact */
+
+.details-for-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+/* Form styles for names */
+
+     
+#theForm {
+ 
+    color:white;
+    display: table;
+    padding: 15px;
+    background-color: #5e343486;
+    border: solid 2px black;
+    }
+     
+    .row {
+    display: table-row;
+    }
+     
+    .row label {
+    display: table-cell;
+    padding: 2px;
+    text-align:right;
+     
+    }
+    .row input {
+    display: table-cell;
+    padding: 2px;
+    }
