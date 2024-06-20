@@ -49,7 +49,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -96,15 +96,15 @@ main {
 }
 
 #not-just-to-live {
-   font-size: large;
+    font-size: large;
     font-style: italic;
     text-align: center;
     padding: 20px 0;
     display: flex;
     color: #ffffff;
     justify-content: space-evenly;
-    background-color:rgba(61, 11, 45, 0.966);
-   height: 70px;
+    background-color: rgba(61, 11, 45, 0.966);
+    height: 70px;
 }
 
 /*our mission*/
@@ -115,9 +115,7 @@ h3 {
     background-color: rgb(77, 59, 21);
 }
 
-#mission-statement
-
-{
+#mission-statement {
     text-align: center;
     font-size: large;
     font-style: italic;
@@ -127,6 +125,7 @@ h3 {
     padding-right: 10%;
     letter-spacing: 2px;
 }
+
 /* Footer */
 
 
@@ -137,11 +136,26 @@ iframe {
     margin: auto;
 }
 
-#email-and-pnone {
+.email-and-pnone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+
+}
+
+.our-services {
     text-align: center;
     font-size: large;
-    
+    text-align: center;
+    padding: 20px 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 2px;
 }
+
 
 #social-networks {
     text-align: center;
@@ -149,6 +163,7 @@ iframe {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin: 5%;
 }
 
 #social-networks i {
@@ -159,6 +174,7 @@ iframe {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -172,7 +188,7 @@ iframe {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -185,18 +201,31 @@ iframe {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    
 
-/* Main content */
-main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 79px;
-}
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
+
+/*GALLERY PAGE*/
+
+/* Main content */
+
+#photos img {
+
+    width: 100%;
+    line-height: 0;
+}
+#photos {
+    line-height: 0;
 }
