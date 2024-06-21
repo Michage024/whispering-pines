@@ -178,6 +178,8 @@ iframe {
         column-count: 2;
         column-gap: 0;
     }
+
+    
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -237,11 +239,11 @@ iframe {
 }
 
 /* JOIN US PAGE */
-.joinus-hero-photo {
+/* .joinus-hero-photo {
     padding-top: 10%;
     padding-left: 15%;
     height: fit-content;
-}
+} */
 
 /* Details for contact */
 
