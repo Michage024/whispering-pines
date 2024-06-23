@@ -103,16 +103,18 @@ main {
     display: flex;
     color: #ffffff;
     justify-content: space-evenly;
-    background-color: rgba(61, 11, 45, 0.966);
+    background-color: #500a4a;
     height: 70px;
 }
 
-/*our mission*/
+/*our mission and visiting*/
 h3 {
-
+   
     text-align: center;
+    letter-spacing: 5px;
     color: #ffffff;
-    background-color: rgb(77, 59, 21);
+    background-color: rgba(61, 59, 49, 0.795);
+ 
 }
 
 #mission-statement {
@@ -126,6 +128,12 @@ h3 {
     letter-spacing: 2px;
 }
 
+#visiting-times-text {
+    
+    text-align: center;
+    padding-left: 180px;
+}
+
 /* Footer */
 
 
@@ -136,9 +144,6 @@ iframe {
     margin: auto;
 }
 
-
-
-
 /* email and pnone */
 .email-and-pnone {
     display: flex;
@@ -147,7 +152,6 @@ iframe {
     align-items: center;
     width: 100%;
     margin-top: 2%;
-
 }
 
 .our-services {
@@ -159,7 +163,6 @@ iframe {
     padding-right: 10%;
     letter-spacing: 2px;
 }
-
 
 #social-networks {
     text-align: center;
@@ -212,6 +215,7 @@ iframe {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+ 
     }
 
 
@@ -273,9 +277,6 @@ iframe {
         margin-top: 2%;
         letter-spacing: 10px;
      }
-    
-
-
 
 #theForm {
  
