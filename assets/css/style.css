@@ -237,6 +237,11 @@ iframe {
 
 /* Main content */
 
+.here-to-care {
+    text-align: center;
+    background-color: #ffd6fc;
+}
+
 #photos img {
 
     width: 100%;
