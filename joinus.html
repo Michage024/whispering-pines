@@ -22,8 +22,7 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="index.html"
-            id="logo"> <img width="30%"  src="assets/Images/head logo.jpg" alt="Whispering-Pines-Logo">
+        <a href="index.html"> <img class="head-logo" src="assets/Images/head-logo.jpg" alt="Whispering-Pines-Logo">
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
@@ -46,7 +45,7 @@
     <h1>Join Us</h1>
 
     <!-- hero photo for join us -->
-    <section> <img width="100%" src="assets/Images/group photo (join us).jpg" class="joinus-hero-photo"></section>
+    <section> <img class="joinus-hero-photo" src="assets/Images/group photo (join us).jpg" alt="Photo-of-some-residents-giving-thumbs-up"></section>
 
     <!-- Contact us text -->
     <div class="contact-us">
@@ -55,10 +54,8 @@
 
     <!-- Form for Names -->
 
-    <form id="theForm" action="" method="">
 
-        <p>
-
+    <form class="join-us-full-box" method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
         <div class="row">
             <label for="name">Name:</label>
             <input type="text" id="name" name=""> </br> </br>
@@ -78,8 +75,8 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="">
             </br></br>
-            Please leave us a message:</br>
-            <textarea rows="30" cols="80"></textarea></br>
+            Comment:</br>
+            <textarea class="comment-box" rows="30" cols="80"></textarea></br>
             <input type="submit" value="Submit">
         </div>
 

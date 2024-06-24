@@ -18,6 +18,19 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.head-logo {
+
+width: 35%;
+}
+
+
+.hero-image {
+    width: 100%;
+}
+.Whispering-Pines-Building {
+    width: 100%;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -113,7 +126,7 @@ h3 {
     text-align: center;
     letter-spacing: 5px;
     color: #ffffff;
-    background-color: rgba(61, 59, 49, 0.795);
+    background-color: #424140e0;   
  
 }
 
@@ -238,25 +251,39 @@ iframe {
 /* Main content */
 
 .here-to-care {
+    padding-top: 1%;
     text-align: center;
     background-color: #ffd6fc;
 }
 
-#photos img {
-
+.gallery-photo-1 {
     width: 100%;
-    line-height: 0;
 }
+.gallery-photo-2 {
+    width: 100%;
+}
+.gallery-photo-3 {
+    width: 100%;
+}
+.gallery-photo-4 {
+    width: 100%;
+}
+.gallery-photo-5 {
+    width: 100%;
+}
+
 #photos {
     line-height: 0;
 }
 
 /* JOIN US PAGE */
-/* .joinus-hero-photo {
-    padding-top: 10%;
-    padding-left: 15%;
-    height: fit-content;
-} */
+
+/* joinus hero photo */
+
+.joinus-hero-photo {
+
+    width: 100%;
+}
 
 /* Details for contact */
 
@@ -282,14 +309,19 @@ iframe {
         margin-top: 2%;
         letter-spacing: 10px;
      }
+     
+     
+.visiting-times {
+       padding-top: 100%;
+     }
+    
 
 #theForm {
- 
-    color:white;
+    color:#ffffff;
     display: table;
     padding: 15px;
     background-color: #5e343486;
-    border: solid 2px black;
+    border: #000000e0;
     }
      
     .row {
@@ -302,8 +334,16 @@ iframe {
     text-align:right;
      
     }
+
     .row input {
     display: table-cell;
     padding: 2px;
     }
+.join-us-full-box {
 
+    background-color: #c8b4cc;
+}
+    .comment-box {
+        width: 40%;
+        height: 30%;
+    }
