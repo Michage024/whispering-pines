@@ -193,7 +193,7 @@ iframe {
 }
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px)
     #photos {
         column-count: 2;
         column-gap: 0;
@@ -256,19 +256,7 @@ iframe {
     background-color: #ffd6fc;
 }
 
-.gallery-photo-1 {
-    width: 100%;
-}
-.gallery-photo-2 {
-    width: 100%;
-}
-.gallery-photo-3 {
-    width: 100%;
-}
-.gallery-photo-4 {
-    width: 100%;
-}
-.gallery-photo-5 {
+.gallery-photo {
     width: 100%;
 }
 
@@ -310,7 +298,25 @@ iframe {
         letter-spacing: 10px;
      }
      
-     
+     .gallery-photo-1 {
+        width: 100%;
+     }
+     .gallery-photo-2 {
+        width: 100%;
+     }
+     .gallery-photo-3 {
+        width: 100%;
+     }
+     .gallery-photo-4 {
+        width: 100%;
+     }
+     .gallery-photo-5 {
+        width: 100%;
+     }
+
+     .joinus-hero-photo {
+        width: 100%;
+     }
 .visiting-times {
        padding-top: 100%;
      }
@@ -344,6 +350,6 @@ iframe {
     background-color: #c8b4cc;
 }
     .comment-box {
-        width: 40%;
+        width: 77%;
         height: 30%;
     }
